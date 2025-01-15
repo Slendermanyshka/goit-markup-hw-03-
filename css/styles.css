@@ -182,6 +182,7 @@ background-color: #404BBF
   width: calc((100% - 72px)/4);
 }
 .team-title{
+  margin-bottom: 72px;
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
@@ -199,9 +200,18 @@ background-color: #404BBF
   color:#2E2F42;
   font-style: normal;
 }
+.team-ul{
+  display: flex;
+  gap: 24px;  
+}
+.team-container{
+  padding: 32px 0;
+}
 .team-li{
+  width: calc((100%-72px)/4);
   text-align: center;
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
   }
   .team-p{
   font-weight: normal;
