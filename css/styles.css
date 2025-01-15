@@ -77,14 +77,14 @@ a {
   align-items: center;
 
 }
-.contacts-list{
-  display: flex;
-  gap: 40px;
-}
+
 .contacts {
   font-style: normal;
 }
-
+.header-contacts-list{
+  display: flex;
+  gap: 40px;
+}
 .header-contacts-link {
   padding: 24px 0;
   font-size: 16px;
@@ -145,15 +145,21 @@ background-color: #404BBF
 }
 
 .specifications{
-  padding: 188px 0;
+  padding: 120px 0;
 }
 
+.specifications-list{
+  display: flex;
+  gap: 24px;
 
+}
 .specifications-li{
+  width: calc((100%-72px)/4);
   list-style-type: none;
   text-decoration: none;
 }
 .specifications-title{
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
