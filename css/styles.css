@@ -42,7 +42,13 @@ a {
   color: #2e2f42;
 }
 
+.header-list{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .header-list-link {
+  padding: 24px 0 ;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -61,6 +67,7 @@ a {
 
 .contacts {
   font-style: normal;
+  
 }
 
 .header-contacts-link {
