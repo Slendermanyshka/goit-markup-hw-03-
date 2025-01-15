@@ -66,11 +66,14 @@ a {
 }
 
 .contacts {
+  display: flex;
+  gap: 40px;
   font-style: normal;
 
 }
 
 .header-contacts-link {
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
