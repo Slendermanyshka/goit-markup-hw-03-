@@ -239,6 +239,8 @@ background-color: #404BBF
 .portfolio-ul{
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
   .portfolio-li {
     text-decoration: none;
