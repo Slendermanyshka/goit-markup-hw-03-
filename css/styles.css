@@ -231,7 +231,14 @@ background-color: #404BBF
   }
 
 .portfolio{
-  padding: 100px 0;
+  padding: 120px 0;
+}
+.portfolio-title{
+  margin-bottom: 72px;
+}
+.portfolio-ul{
+  display: flex;
+  flex-wrap: wrap;
 }
   .portfolio-li {
     text-decoration: none;
