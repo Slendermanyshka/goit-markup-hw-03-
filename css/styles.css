@@ -266,6 +266,7 @@ background-color: #404BBF
     text-transform: capitalize;
     color: #2E2F42;
     font-style: normal;
+    margin-bottom: 8px;
   }
   .portfolio-small-title{
     font-weight: 500;
